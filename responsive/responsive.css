@@ -5,13 +5,14 @@
 }
 @media screen and (min-width: 600px) {
   .comic {
-    background: url("https://imgs.xkcd.com/comics/self_description.png");
+    background: url("https://imgs.xkcd.com/comics/self_description.png") 60 400;
     width: 500px;
     height: 180px;
   }
   @media screen and (min-width: 1200px) {
     .comic {
-      background: url("https://imgs.xkcd.com/comics/self_description.png");
+      background: url("https://imgs.xkcd.com/comics/self_description.png") 50
+        300;
       width: 250px;
       height: 180px;
     }
@@ -19,7 +20,7 @@
 }
 @media screen and (max-width: 600px) {
   .comic {
-    background: url("https://imgs.xkcd.com/comics/self_description.png");
+    background: url("https://imgs.xkcd.com/comics/self_description.png") 50 150;
     width: 800px;
     height: 180px;
   }
