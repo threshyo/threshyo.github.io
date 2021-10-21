@@ -8,15 +8,59 @@ h1 {
 @media screen and (min-width: 500px) {
   body {
     background-color: green;
+    color: rgb(255, 255, 255);
   }
 }
 @media screen and (max-width: 1000px) {
   h1 {
     font-family: "Times New Roman";
+    color: rgb(255, 255, 255);
   }
 }
 .image {
   background: url("https://placedog.net/500/280?random");
   width: 500px;
   height: 280px;
+}
+
+#CentreBox {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0px 0px 30px 0px black;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1608754482805-6f630357358b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80");
+}
+div#CentreBoxContent {
+  width: 200px;
+  float: right;
+}
+
+div#CentreBoxContent > h1 {
+  font-family: helvetica;
+  font-weight: bold;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  color: #ff0000;
+}
+div#headshot {
+  width: 100px;
+  float: left;
+}
+#photo {
+  width: 300px;
+}
+p,
+a:visited,
+a:link {
+  color: white;
 }
